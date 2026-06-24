@@ -1,14 +1,14 @@
 # CodeAlpha Hangman
 
-A polished Python implementation of the classic Hangman game with technology-themed words and improved input validation.
+A beginner-level Python project created for the ODEAlpha internship. This Hangman game demonstrates the basic Python concepts expected for a fresher-level submission, including loops, conditionals, user input, data structures, and the `random` module.
 
 ## Features
 
-- Clean command-line interface
-- Technology-themed word bank with hints
-- Letter and full-word guess support
-- Input validation for repeated or invalid guesses
-- Friendly win/lose messages
+- Uses `random.choice()` to select a word
+- Uses loops to run the game until win or loss
+- Uses conditionals for input validation and game logic
+- Uses dictionaries to store words and hints
+- Uses lists to build and display the guessed word
 
 ## Requirements
 
@@ -16,16 +16,18 @@ A polished Python implementation of the classic Hangman game with technology-the
 
 ## Usage
 
+Run the project from the repository root:
+
 ```bash
 python3 hangman.py
 ```
 
 ## Project Structure
 
-- `hangman.py`: Main game implementation
-- `README.md`: Project overview and usage instructions
+- `hangman.py`: Core game logic for the Hangman project
+- `README.md`: Internship-level project description and usage
 - `.gitignore`: Local environment exclusions
 
-## Notes
+## Internship Notes
 
-This repository is designed for easy execution and expansion. You can add more word categories, difficulty levels, or a scoring system to build on this foundation.
+This project is suitable for a fresher in the ODEAlpha internship program. It focuses on practical, easy-to-read Python code and demonstrates the core skills typically required in an entry-level internship task.
