@@ -30,4 +30,4 @@ python3 hangman.py
 
 ## Internship Notes
 
-This project is suitable for a fresher in the ODEAlpha internship program. It focuses on practical, easy-to-read Python code and demonstrates the core skills typically required in an entry-level internship task.
+This project is suitable for a fresher in the CodeAlpha internship program. It focuses on practical, easy-to-read Python code and demonstrates the core skills typically required in an entry-level internship task.
